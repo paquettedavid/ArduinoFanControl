@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		630105B6174317C60091EDD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 630105B5174317C60091EDD3 /* UIKit.framework */; };
+		630105B8174317C60091EDD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 630105B7174317C60091EDD3 /* Foundation.framework */; };
+		630105BA174317C60091EDD3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 630105B9174317C60091EDD3 /* CoreGraphics.framework */; };
+		630105C0174317C60091EDD3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 630105BE174317C60091EDD3 /* InfoPlist.strings */; };
+		630105C2174317C60091EDD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 630105C1174317C60091EDD3 /* main.m */; };
+		630105C6174317C60091EDD3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 630105C5174317C60091EDD3 /* AppDelegate.m */; };
+		630105C8174317C60091EDD3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 630105C7174317C60091EDD3 /* Default.png */; };
+		630105CF174317C60091EDD3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 630105CD174317C60091EDD3 /* MainStoryboard.storyboard */; };
+		630105D2174317C60091EDD3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 630105D1174317C60091EDD3 /* ViewController.m */; };
+		630105DA174317C60091EDD3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 630105D9174317C60091EDD3 /* SenTestingKit.framework */; };
+		630105DB174317C60091EDD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 630105B5174317C60091EDD3 /* UIKit.framework */; };
+		630105DC174317C60091EDD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 630105B7174317C60091EDD3 /* Foundation.framework */; };
+		630105E4174317C60091EDD3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 630105E2174317C60091EDD3 /* InfoPlist.strings */; };
+		630105E7174317C60091EDD3 /* FanControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 630105E6174317C60091EDD3 /* FanControlTests.m */; };
+		6310341A17566BCB0030DCFF /* SettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6310341917566BCB0030DCFF /* SettingView.m */; };
+		634C819D17583C14000D4C47 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 634C819C17583C14000D4C47 /* Default@2x.png */; };
+		634D780F17584F3400308F80 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 634D780E17584F3400308F80 /* Default-568h@2x.png */; };
+		634DDE52174AD85900BA8ED2 /* arduinoFan.m in Sources */ = {isa = PBXBuildFile; fileRef = 634DDE51174AD85900BA8ED2 /* arduinoFan.m */; };
+		63784A4E1762B9860051AC32 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 63784A4A1762B9860051AC32 /* Icon-Small.png */; };
+		63784A4F1762B9860051AC32 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63784A4B1762B9860051AC32 /* Icon-Small@2x.png */; };
+		63784A501762B9860051AC32 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 63784A4C1762B9860051AC32 /* iTunesArtwork.png */; };
+		63784A511762B9860051AC32 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63784A4D1762B9860051AC32 /* iTunesArtwork@2x.png */; };
+		63784A531762B98B0051AC32 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 63784A521762B98B0051AC32 /* Icon-72.png */; };
+		63784A551762B9940051AC32 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63784A541762B9940051AC32 /* Icon-72@2x.png */; };
+		63DE582F17587408007C04F5 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DE582E17587408007C04F5 /* Icon@2x.png */; };
+		63DE58311758740D007C04F5 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DE58301758740D007C04F5 /* Icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		630105DD174317C60091EDD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 630105AA174317C60091EDD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 630105B1174317C60091EDD3;
+			remoteInfo = FanControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		630105B2174317C60091EDD3 /* FanControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FanControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		630105B5174317C60091EDD3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		630105B7174317C60091EDD3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		630105B9174317C60091EDD3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		630105BD174317C60091EDD3 /* FanControl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FanControl-Info.plist"; sourceTree = "<group>"; };
+		630105BF174317C60091EDD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		630105C1174317C60091EDD3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		630105C3174317C60091EDD3 /* FanControl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FanControl-Prefix.pch"; sourceTree = "<group>"; };
+		630105C4174317C60091EDD3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		630105C5174317C60091EDD3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		630105C7174317C60091EDD3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		630105C9174317C60091EDD3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		630105CB174317C60091EDD3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		630105CE174317C60091EDD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		630105D0174317C60091EDD3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		630105D1174317C60091EDD3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		630105D8174317C60091EDD3 /* FanControlTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FanControlTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		630105D9174317C60091EDD3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		630105E1174317C60091EDD3 /* FanControlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FanControlTests-Info.plist"; sourceTree = "<group>"; };
+		630105E3174317C60091EDD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		630105E5174317C60091EDD3 /* FanControlTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FanControlTests.h; sourceTree = "<group>"; };
+		630105E6174317C60091EDD3 /* FanControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanControlTests.m; sourceTree = "<group>"; };
+		6310341817566BCB0030DCFF /* SettingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingView.h; sourceTree = "<group>"; };
+		6310341917566BCB0030DCFF /* SettingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingView.m; sourceTree = "<group>"; };
+		634C819817583BEA000D4C47 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		634C819A17583BED000D4C47 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		634C819C17583C14000D4C47 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		634D780E17584F3400308F80 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		634DDE50174AD85900BA8ED2 /* arduinoFan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = arduinoFan.h; sourceTree = "<group>"; };
+		634DDE51174AD85900BA8ED2 /* arduinoFan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = arduinoFan.m; sourceTree = "<group>"; };
+		63784A4A1762B9860051AC32 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		63784A4B1762B9860051AC32 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		63784A4C1762B9860051AC32 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		63784A4D1762B9860051AC32 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		63784A521762B98B0051AC32 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		63784A541762B9940051AC32 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		637D4C38175851DC006127A8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		63DE582E17587408007C04F5 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		63DE58301758740D007C04F5 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		630105AF174317C60091EDD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630105B6174317C60091EDD3 /* UIKit.framework in Frameworks */,
+				630105B8174317C60091EDD3 /* Foundation.framework in Frameworks */,
+				630105BA174317C60091EDD3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630105D4174317C60091EDD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630105DA174317C60091EDD3 /* SenTestingKit.framework in Frameworks */,
+				630105DB174317C60091EDD3 /* UIKit.framework in Frameworks */,
+				630105DC174317C60091EDD3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		630105A9174317C60091EDD3 = {
+			isa = PBXGroup;
+			children = (
+				63DE58301758740D007C04F5 /* Icon.png */,
+				63DE582E17587408007C04F5 /* Icon@2x.png */,
+				637D4C38175851DC006127A8 /* Default.png */,
+				634D780E17584F3400308F80 /* Default-568h@2x.png */,
+				63784A541762B9940051AC32 /* Icon-72@2x.png */,
+				63784A521762B98B0051AC32 /* Icon-72.png */,
+				634C819C17583C14000D4C47 /* Default@2x.png */,
+				63784A4A1762B9860051AC32 /* Icon-Small.png */,
+				63784A4B1762B9860051AC32 /* Icon-Small@2x.png */,
+				63784A4C1762B9860051AC32 /* iTunesArtwork.png */,
+				63784A4D1762B9860051AC32 /* iTunesArtwork@2x.png */,
+				634C819A17583BED000D4C47 /* Icon.png */,
+				634C819817583BEA000D4C47 /* Icon@2x.png */,
+				630105BB174317C60091EDD3 /* FanControl */,
+				630105DF174317C60091EDD3 /* FanControlTests */,
+				630105B4174317C60091EDD3 /* Frameworks */,
+				630105B3174317C60091EDD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		630105B3174317C60091EDD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				630105B2174317C60091EDD3 /* FanControl.app */,
+				630105D8174317C60091EDD3 /* FanControlTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		630105B4174317C60091EDD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				630105B5174317C60091EDD3 /* UIKit.framework */,
+				630105B7174317C60091EDD3 /* Foundation.framework */,
+				630105B9174317C60091EDD3 /* CoreGraphics.framework */,
+				630105D9174317C60091EDD3 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		630105BB174317C60091EDD3 /* FanControl */ = {
+			isa = PBXGroup;
+			children = (
+				630105C4174317C60091EDD3 /* AppDelegate.h */,
+				630105C5174317C60091EDD3 /* AppDelegate.m */,
+				630105CD174317C60091EDD3 /* MainStoryboard.storyboard */,
+				6310341817566BCB0030DCFF /* SettingView.h */,
+				6310341917566BCB0030DCFF /* SettingView.m */,
+				630105D0174317C60091EDD3 /* ViewController.h */,
+				630105D1174317C60091EDD3 /* ViewController.m */,
+				634DDE50174AD85900BA8ED2 /* arduinoFan.h */,
+				634DDE51174AD85900BA8ED2 /* arduinoFan.m */,
+				630105BC174317C60091EDD3 /* Supporting Files */,
+			);
+			path = FanControl;
+			sourceTree = "<group>";
+		};
+		630105BC174317C60091EDD3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				630105BD174317C60091EDD3 /* FanControl-Info.plist */,
+				630105BE174317C60091EDD3 /* InfoPlist.strings */,
+				630105C1174317C60091EDD3 /* main.m */,
+				630105C3174317C60091EDD3 /* FanControl-Prefix.pch */,
+				630105C7174317C60091EDD3 /* Default.png */,
+				630105C9174317C60091EDD3 /* Default@2x.png */,
+				630105CB174317C60091EDD3 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		630105DF174317C60091EDD3 /* FanControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				630105E5174317C60091EDD3 /* FanControlTests.h */,
+				630105E6174317C60091EDD3 /* FanControlTests.m */,
+				630105E0174317C60091EDD3 /* Supporting Files */,
+			);
+			path = FanControlTests;
+			sourceTree = "<group>";
+		};
+		630105E0174317C60091EDD3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				630105E1174317C60091EDD3 /* FanControlTests-Info.plist */,
+				630105E2174317C60091EDD3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		630105B1174317C60091EDD3 /* FanControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 630105EA174317C60091EDD3 /* Build configuration list for PBXNativeTarget "FanControl" */;
+			buildPhases = (
+				630105AE174317C60091EDD3 /* Sources */,
+				630105AF174317C60091EDD3 /* Frameworks */,
+				630105B0174317C60091EDD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FanControl;
+			productName = FanControl;
+			productReference = 630105B2174317C60091EDD3 /* FanControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		630105D7174317C60091EDD3 /* FanControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 630105ED174317C60091EDD3 /* Build configuration list for PBXNativeTarget "FanControlTests" */;
+			buildPhases = (
+				630105D3174317C60091EDD3 /* Sources */,
+				630105D4174317C60091EDD3 /* Frameworks */,
+				630105D5174317C60091EDD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				630105DE174317C60091EDD3 /* PBXTargetDependency */,
+			);
+			name = FanControlTests;
+			productName = FanControlTests;
+			productReference = 630105D8174317C60091EDD3 /* FanControlTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		630105AA174317C60091EDD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "David Paquette";
+			};
+			buildConfigurationList = 630105AD174317C60091EDD3 /* Build configuration list for PBXProject "FanControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 630105A9174317C60091EDD3;
+			productRefGroup = 630105B3174317C60091EDD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				630105B1174317C60091EDD3 /* FanControl */,
+				630105D7174317C60091EDD3 /* FanControlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		630105B0174317C60091EDD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630105C0174317C60091EDD3 /* InfoPlist.strings in Resources */,
+				630105C8174317C60091EDD3 /* Default.png in Resources */,
+				630105CF174317C60091EDD3 /* MainStoryboard.storyboard in Resources */,
+				634C819D17583C14000D4C47 /* Default@2x.png in Resources */,
+				634D780F17584F3400308F80 /* Default-568h@2x.png in Resources */,
+				63DE582F17587408007C04F5 /* Icon@2x.png in Resources */,
+				63DE58311758740D007C04F5 /* Icon.png in Resources */,
+				63784A4E1762B9860051AC32 /* Icon-Small.png in Resources */,
+				63784A4F1762B9860051AC32 /* Icon-Small@2x.png in Resources */,
+				63784A501762B9860051AC32 /* iTunesArtwork.png in Resources */,
+				63784A511762B9860051AC32 /* iTunesArtwork@2x.png in Resources */,
+				63784A531762B98B0051AC32 /* Icon-72.png in Resources */,
+				63784A551762B9940051AC32 /* Icon-72@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630105D5174317C60091EDD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630105E4174317C60091EDD3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		630105AE174317C60091EDD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630105C2174317C60091EDD3 /* main.m in Sources */,
+				630105C6174317C60091EDD3 /* AppDelegate.m in Sources */,
+				630105D2174317C60091EDD3 /* ViewController.m in Sources */,
+				634DDE52174AD85900BA8ED2 /* arduinoFan.m in Sources */,
+				6310341A17566BCB0030DCFF /* SettingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630105D3174317C60091EDD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630105E7174317C60091EDD3 /* FanControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		630105DE174317C60091EDD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 630105B1174317C60091EDD3 /* FanControl */;
+			targetProxy = 630105DD174317C60091EDD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		630105BE174317C60091EDD3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				630105BF174317C60091EDD3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		630105CD174317C60091EDD3 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				630105CE174317C60091EDD3 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		630105E2174317C60091EDD3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				630105E3174317C60091EDD3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		630105E8174317C60091EDD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		630105E9174317C60091EDD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		630105EB174317C60091EDD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FanControl/FanControl-Prefix.pch";
+				INFOPLIST_FILE = "FanControl/FanControl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		630105EC174317C60091EDD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: David Paquette (K9JDX822V3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FanControl/FanControl-Prefix.pch";
+				INFOPLIST_FILE = "FanControl/FanControl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "CB9D5DB2-5F0D-447E-B943-FE0635359BA5";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		630105EE174317C60091EDD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FanControl.app/FanControl";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FanControl/FanControl-Prefix.pch";
+				INFOPLIST_FILE = "FanControlTests/FanControlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		630105EF174317C60091EDD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FanControl.app/FanControl";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FanControl/FanControl-Prefix.pch";
+				INFOPLIST_FILE = "FanControlTests/FanControlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		630105AD174317C60091EDD3 /* Build configuration list for PBXProject "FanControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				630105E8174317C60091EDD3 /* Debug */,
+				630105E9174317C60091EDD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		630105EA174317C60091EDD3 /* Build configuration list for PBXNativeTarget "FanControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				630105EB174317C60091EDD3 /* Debug */,
+				630105EC174317C60091EDD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		630105ED174317C60091EDD3 /* Build configuration list for PBXNativeTarget "FanControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				630105EE174317C60091EDD3 /* Debug */,
+				630105EF174317C60091EDD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 630105AA174317C60091EDD3 /* Project object */;
+}
